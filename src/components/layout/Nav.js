@@ -56,7 +56,7 @@ const NavList = () => (
   <ul className="navbar-nav mr-auto">
     <NavListItem to={'/home'} name="Home" />
     <NavListItem to={'/aboutus'} name="About Us" />
-    <NavListItem to={'/contactus'} name="Contact Us" />
+    <NavListItem to={'/contact'} name="Contact Us" />
   </ul>
 );
 
