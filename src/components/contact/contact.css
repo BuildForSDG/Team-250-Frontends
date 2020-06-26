@@ -30,14 +30,13 @@ a:focus {
 a:hover {
   text-decoration: none;
 }
-
 ul,
 li {
   margin: 0px;
   list-style-type: none;
 }
 
-/*---------------------------------------------*/
+
 input {
   outline: none;
   border: none;

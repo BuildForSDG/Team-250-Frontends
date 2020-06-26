@@ -1,6 +1,7 @@
 /*Main CSS*/
 
 /*Login Signup Page*/
+
 a:focus,
 a:hover,
 a {
@@ -548,7 +549,7 @@ header {
 .modal {
   top: 20%;
 }
-r .modal-header .close {
+.modal-header .close {
   margin-top: 2px 2px;
 }
 .search input:focus {
@@ -695,4 +696,39 @@ r .modal-header .close {
     padding: 16px 0 17px;
     width: 100%;
   }
+}
+@media only screen and (max-width: 600px) {
+
+.navi a {
+  display: block;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.navi i {
+  margin-right: 5px;
+  color: #0d0d0e;
+}
+
+.navi .active a {
+  background: #00ad45;
+  border-left: 2px solid #0d0d0e;
+  padding-left: 5px;
+}
+
+.navi a:hover {
+  background: #00ad45 none repeat scroll 0 0;
+  border-left: 5px solid #0d0d0e;
+  display: block;
+  padding-left: 5px;
+}
+
+}
+@media screen and (max-width: 800px) and (min-width: 601px) {
+
+}
+@media screen and (max-width: 1024px) and (min-width: 801px) {
+
 }

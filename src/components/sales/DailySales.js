@@ -17,7 +17,7 @@ const ItemOrdered = () => {
     <div>
       <div className="container">
         <h6>Produce Ordered</h6>
-      <table className="table">
+      <table className="table table-responsive">
         <thead>
           <tr>
             <th>SN</th>

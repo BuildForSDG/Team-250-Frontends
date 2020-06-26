@@ -9,12 +9,12 @@ import DashItem from './DashboardNav';
 
 const Dashoard = () => (
     <div className="home">
-        <div className="container-fluid display-table">
-          <div className="row display-table-row">
+        <div className="container-fluid">
+          <div className="row">
             <div className="col-md-2 col-sm-1 hidden-xs display-table-cell v-align box" id="navigation">
               <div className="navi">
                 {DashItem.map((item) => (
-                  <div className="navi" key={item.id}>
+                  <div className="" key={item.id}>
                     <li className={item.Status}>
                       <NavLink to={item.to}>
                         <i className="fa fa-home" aria-hidden="true">

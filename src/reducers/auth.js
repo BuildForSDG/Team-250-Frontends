@@ -11,7 +11,6 @@ import {
   USER_LOADING
 } from '../actions/types';
 
-
 const initialState = {
   isAuthenticated: null,
   isFarmer: null,
